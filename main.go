@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/bryanbraun/go-practice/day1"
+)
 
 func main() {
-	name := "Visual Studio Code"
-	fmt.Println("Welcome to", name)
+	myVar := "World"
+	fmt.Println("Hello", myVar)
+
+	fmt.Println("Day 1", day1.Day1())
 }
