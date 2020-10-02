@@ -1,4 +1,4 @@
-package day1
+package main
 
 import (
 	"bufio"
@@ -14,9 +14,9 @@ func getFuelReq(mass int) int {
 }
 
 // Day1 returns a string with the solution to day 1
-func Day1() int {
+func main() {
 	var fuelReq int
-	file, err := os.Open("day1/day1.txt")
+	file, err := os.Open("day1.txt")
 
 	if err != nil {
 		log.Fatal(err)
@@ -43,5 +43,5 @@ func Day1() int {
 		log.Fatal(err3)
 	}
 
-	return fuelReq
+	fmt.Println("Total Fuel Requirement: ", fuelReq)
 }
