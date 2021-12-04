@@ -1,6 +1,6 @@
 # Deno
 
-These are the 2021 advent of code challenges, completed using [Deno])(https://deno.land/).
+These are the 2021 advent of code challenges, completed using [Deno](https://deno.land/).
 
 ## Running the code
 
